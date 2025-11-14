@@ -1,4 +1,8 @@
 function Sidebar() {
+  const handleClick = () => {
+    alert("This section is under construction. Coming soon!");
+  };
+
   const sidebarItems = [
     "Home",
     "Important Places",
@@ -13,7 +17,7 @@ function Sidebar() {
         <ul>
           {sidebarItems.map((items) => (
             <li key={items} className="sidebar-items">
-              <a href="">{items}</a>
+              <a onClick={handleClick}>{items}</a>
             </li>
           ))}
         </ul>

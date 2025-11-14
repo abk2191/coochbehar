@@ -150,6 +150,10 @@ body {
   background-color: rgba(0, 0, 0, 0.1); /* Add hover effect */
 }
 
+.developer {
+  font-family: "Inter", sans-serif;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .nav-bar {
@@ -217,5 +221,10 @@ body {
   .sidebar-items {
     font-size: 24px; /* Slightly smaller font */
     font-weight: bold;
+  }
+
+  .developer {
+    font-family: "Inter", sans-serif;
+    margin-bottom: 35px;
   }
 }

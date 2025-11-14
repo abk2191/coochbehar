@@ -118,7 +118,7 @@ body {
 .sidebar ul {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
   gap: 50px;
   margin: 0; /* Remove default margin */

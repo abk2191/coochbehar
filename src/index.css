@@ -13,15 +13,31 @@ body {
 }
 
 .banner {
-  height: auto;
+  position: relative; /* Creates positioning context */
+  height: 550px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .banner-image {
   width: 100%;
-  height: auto;
-  object-fit: cover; /* Makes the image behave like background-size: cover */
-  /* Places image behind the content */
+  height: 550px;
+  object-fit: cover;
+  display: block; /* Removes extra space below image */
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5rem;
+
+  text-align: center;
+  margin: 0;
+  text-shadow: 2px 2px 6px rgba(105, 105, 105, 0.7);
+  z-index: 2;
 }
 
 .logo {
@@ -48,5 +64,13 @@ body {
     padding: 0;
     margin: 0;
     font-size: 25px;
+  }
+
+  .banner {
+    height: auto;
+  }
+
+  .banner-image {
+    height: auto;
   }
 }

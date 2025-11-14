@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  height: 120px;
+  width: 100%;
+  background-color: rgb(1, 22, 74);
+}
+
+.banner {
+  height: auto;
+  width: 100%;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Makes the image behave like background-size: cover */
+  /* Places image behind the content */
+}

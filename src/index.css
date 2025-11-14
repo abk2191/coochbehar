@@ -111,4 +111,8 @@ body {
   .city-description p {
     font-size: 18px;
   }
+
+  .menu-btn {
+    font-size: 30px;
+  }
 }

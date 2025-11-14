@@ -205,12 +205,6 @@ body {
     height: 300px;
   }
 
-  .sidebar {
-    height: calc(100vh - 80px); /* Subtract mobile navbar height */
-    top: 80px; /* Position below mobile navbar */
-    width: 250px;
-  }
-
   .sidebar ul {
     gap: 30px; /* Reduce gap on mobile */
   }

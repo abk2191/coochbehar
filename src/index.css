@@ -207,12 +207,13 @@ body {
   }
 
   .sidebar ul {
-    gap: 20px; /* Further reduce gap on mobile */
+    gap: 30px; /* Further reduce gap on mobile */
     justify-content: flex-start; /* Start from top on mobile */
     padding-top: 20px; /* Small top padding instead of large gap */
   }
 
   .sidebar-items {
-    font-size: 20px; /* Slightly smaller font */
+    font-size: 24px; /* Slightly smaller font */
+    font-weight: bold;
   }
 }

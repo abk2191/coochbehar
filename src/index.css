@@ -92,6 +92,9 @@ body {
   top: 120px; /* Position below navbar */
   position: fixed;
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Add this to center vertically */
 }
 
 .second-banner {
@@ -106,6 +109,45 @@ body {
   object-fit: cover;
   display: block; /* Removes extra space below image */
 }
+
+.sidebar-items {
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  list-style: none; /* Remove bullet points */
+  width: 100%; /* Take full width */
+}
+
+.sidebar li {
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Take full width */
+  text-align: center; /* Center the text */
+}
+
+.sidebar li a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Set link color */
+  display: block; /* Make the link fill the entire li */
+  width: 100%;
+  padding: 10px 0; /* Add some vertical padding */
+}
+
+.sidebar li a:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Add hover effect */
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .nav-bar {
@@ -161,5 +203,19 @@ body {
 
   .second-banner-image {
     height: 300px;
+  }
+
+  .sidebar {
+    height: calc(100vh - 80px); /* Subtract mobile navbar height */
+    top: 80px; /* Position below mobile navbar */
+    width: 250px;
+  }
+
+  .sidebar ul {
+    gap: 30px; /* Reduce gap on mobile */
+  }
+
+  .sidebar-items {
+    font-size: 24px; /* Slightly smaller font on mobile */
   }
 }

@@ -65,6 +65,7 @@ body {
   color: grey;
   text-align: center;
   text-wrap: wrap;
+  line-height: 1.6;
 }
 
 .menu-btn-div {
@@ -120,6 +121,7 @@ body {
 
   .city-description p {
     font-size: 18px;
+    line-height: 1.6;
   }
 
   .menu-btn {

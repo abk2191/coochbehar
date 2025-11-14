@@ -225,6 +225,7 @@ body {
 
   .developer {
     font-family: "Inter", sans-serif;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
+    color: grey;
   }
 }

@@ -154,4 +154,12 @@ body {
     top: 80px; /* Position below mobile navbar */
     width: 250px;
   }
+
+  .second-banner {
+    height: 300px;
+  }
+
+  .second-banner-image {
+    height: 300px;
+  }
 }

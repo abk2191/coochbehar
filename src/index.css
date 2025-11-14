@@ -93,9 +93,10 @@ body {
 
   .city-description h2 {
     font-size: 20px;
+    font-weight: bold;
   }
 
   .city-description p {
-    font-size: 15px;
+    font-size: 18px;
   }
 }

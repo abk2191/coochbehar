@@ -3,7 +3,13 @@ function Navbar() {
     <>
       <div className="nav-bar">
         <div className="logo">
+          <div className="menu-btn-div">
+            <button className="menu-btn">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
           <h3>COOCHBEHAR</h3>
+          <div></div>
         </div>
       </div>
     </>

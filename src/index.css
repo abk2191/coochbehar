@@ -29,7 +29,8 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .logo h3 {
@@ -61,11 +62,22 @@ body {
   padding: 0;
   margin: 0;
   font-size: 25px;
-  color: #2c3e50;
+  color: grey;
   text-align: center;
   text-wrap: wrap;
 }
 
+.menu-btn-div {
+  padding: 10px;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  font-size: 40px;
+  color: #2c3e50;
+  cursor: pointer;
+}
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .nav-bar {

@@ -141,7 +141,7 @@ body {
   color: black; /* Set link color */
   display: block; /* Make the link fill the entire li */
   width: 100%;
-  padding: 10px 0; /* Add some vertical padding */
+  /* padding: 10px 0;  */
 }
 
 .sidebar li a:hover {

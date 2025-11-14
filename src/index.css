@@ -10,6 +10,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: sticky; /* Add this */
+  top: 0; /* Add this */
+  z-index: 999; /* Add this to ensure it stays above other content */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .banner {
@@ -70,7 +74,7 @@ body {
 
 .menu-btn-div {
   padding: 10px;
-  z-index: 1001;
+  z-index: 2000;
 }
 
 .menu-btn {
@@ -82,11 +86,11 @@ body {
 }
 
 .sidebar {
-  height: 100vh;
+  height: calc(100vh - 120px); /* Subtract navbar height */
   width: 300px;
   background-color: rgb(216, 206, 62);
-  top: 0;
-  position: absolute;
+  top: 120px; /* Position below navbar */
+  position: fixed;
   z-index: 1000;
 }
 /* Mobile Responsive */
@@ -130,5 +134,10 @@ body {
 
   .logo h3 {
     margin-right: 25px;
+  }
+
+  .sidebar {
+    height: calc(100vh - 80px); /* Subtract mobile navbar height */
+    top: 80px; /* Position below mobile navbar */
   }
 }

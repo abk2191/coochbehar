@@ -42,4 +42,11 @@ body {
   .nav-bar {
     height: 80px;
   }
+
+  .logo h3 {
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+  }
 }

@@ -6,7 +6,10 @@ body {
 .nav-bar {
   height: 120px;
   width: 100%;
-  background-color: rgb(1, 22, 74);
+  background-color: rgb(216, 206, 62);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner {
@@ -19,6 +22,19 @@ body {
   height: auto;
   object-fit: cover; /* Makes the image behave like background-size: cover */
   /* Places image behind the content */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo h3 {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 45px;
 }
 
 /* Mobile Responsive */

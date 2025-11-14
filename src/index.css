@@ -86,4 +86,16 @@ body {
   .banner-image {
     height: auto;
   }
+
+  .city-description {
+    padding: 30px;
+  }
+
+  .city-description h2 {
+    font-size: 30px;
+  }
+
+  .city-description p {
+    font-size: 15px;
+  }
 }

@@ -207,6 +207,7 @@ body {
   }
 
   .sidebar ul {
+    margin-top: 20px;
     gap: 30px; /* Further reduce gap on mobile */
     justify-content: flex-start; /* Start from top on mobile */
     padding-top: 20px; /* Small top padding instead of large gap */

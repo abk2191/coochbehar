@@ -13,7 +13,10 @@ function App() {
   }
   return (
     <>
-      <Navbar handleSidebarToggle={handleSidebarToggle} />
+      <Navbar
+        handleSidebarToggle={handleSidebarToggle}
+        sideBarVisibility={sideBarVisibility}
+      />
       <Banner />
       <CityDescription />
       {sideBarVisibility && <Sidebar />}

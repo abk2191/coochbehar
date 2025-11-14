@@ -1,11 +1,15 @@
-function Navbar({ handleSidebarToggle }) {
+function Navbar({ handleSidebarToggle, sideBarVisibility }) {
   return (
     <>
       <div className="nav-bar">
         <div className="logo">
           <div className="menu-btn-div">
             <button className="menu-btn" onClick={handleSidebarToggle}>
-              <i class="fa-solid fa-bars"></i>
+              {sideBarVisibility ? (
+                <i class="fa-solid fa-xmark"></i>
+              ) : (
+                <i class="fa-solid fa-bars"></i>
+              )}
             </button>
           </div>
           <h3>COOCHBEHAR</h3>

@@ -20,3 +20,10 @@ body {
   object-fit: cover; /* Makes the image behave like background-size: cover */
   /* Places image behind the content */
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .nav-bar {
+    height: 80px;
+  }
+}

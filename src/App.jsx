@@ -5,12 +5,17 @@ import CityDescription from "./CityDescription";
 import Sidebar from "./Sidebar";
 
 function App() {
+  const [sideBarVisibility, setSideBarVisibility] = useState(false);
+
+  function handleSidebarToggle() {
+    setSideBarVisibility((prev) => !prev);
+  }
   return (
     <>
-      <Navbar />
+      <Navbar handleSidebarToggle={handleSidebarToggle} />
       <Banner />
       <CityDescription />
-      <Sidebar />
+      {sideBarVisibility && <Sidebar />}
     </>
   );
 }

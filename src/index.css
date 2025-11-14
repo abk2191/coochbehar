@@ -69,20 +69,24 @@ body {
 
 .menu-btn-div {
   padding: 10px;
+  z-index: 1001;
 }
 
 .menu-btn {
   background: none;
   border: none;
   font-size: 40px;
-  color: #2c3e50;
+  color: black;
   cursor: pointer;
 }
 
 .sidebar {
-  height: 100vo;
+  height: 100vh;
   width: 300px;
   background-color: rgb(216, 206, 62);
+  top: 0;
+  position: absolute;
+  z-index: 1000;
 }
 /* Mobile Responsive */
 @media (max-width: 768px) {
@@ -123,6 +127,6 @@ body {
   }
 
   .logo h3 {
-    margin-right: 20px;
+    margin-right: 22px;
   }
 }

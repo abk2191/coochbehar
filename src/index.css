@@ -93,6 +93,7 @@ body {
   position: fixed;
   z-index: 1000;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -207,7 +208,7 @@ body {
   }
 
   .sidebar ul {
-    margin-top: 20px;
+    margin-top: 40px;
     gap: 30px; /* Further reduce gap on mobile */
     justify-content: flex-start; /* Start from top on mobile */
     padding-top: 20px; /* Small top padding instead of large gap */

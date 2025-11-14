@@ -80,6 +80,9 @@ body {
 }
 
 .sidebar {
+  height: 100vo;
+  width: 300px;
+  background-color: rgb(216, 206, 62);
 }
 /* Mobile Responsive */
 @media (max-width: 768px) {
@@ -120,6 +123,6 @@ body {
   }
 
   .logo h3 {
-    margin-right: 15px;
+    margin-right: 20px;
   }
 }

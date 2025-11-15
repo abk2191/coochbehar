@@ -1,16 +1,16 @@
 function SecondBanner() {
   return (
     <>
-      <div className="second-banner">
-        <img
-          src="./sd3.jpeg"
-          alt="sagar-dighi"
-          className="second-banner-image"
-        />
-      </div>
       <div className="container">
         <div className="sagar-dighi-desc-div">
           <h2>THE MAJESTIC SAGAR DIGHI</h2>
+          <div className="second-banner">
+            <img
+              src="./sd3.jpeg"
+              alt="sagar-dighi"
+              className="second-banner-image"
+            />
+          </div>
           <p>
             Sagar Dighi is one of the most prominent public spaces in
             Coochbehar, known for its expansive waterbody and well-maintained

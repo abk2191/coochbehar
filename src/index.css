@@ -74,7 +74,6 @@ body {
   text-align: center;
   text-wrap: wrap;
   line-height: 1.6;
-  text-align: justify;
 }
 
 .menu-btn-div {
@@ -198,7 +197,20 @@ body {
   font-size: 25px;
   color: grey;
   line-height: 1.6;
+}
+
+.city-description p,
+.sagar-dighi-desc-div p {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  color: grey;
   text-align: justify;
+  text-wrap: wrap;
+  line-height: 1.7; /* Slightly increased for better readability */
+  text-justify: inter-word; /* Better word spacing */
+  hyphens: auto; /* Hyphenation for better line breaks */
 }
 
 /* Mobile Responsive */

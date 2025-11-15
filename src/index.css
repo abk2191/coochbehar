@@ -260,4 +260,13 @@ body {
     margin-bottom: 50px;
     color: grey;
   }
+
+  .second-banner h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .second-banner p {
+    font-size: 18px;
+  }
 }

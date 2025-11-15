@@ -3,7 +3,7 @@ function SecondBanner() {
     <>
       <div className="second-banner">
         <img
-          src="./sagar-dighi-2.jpg"
+          src="./sd3.jpeg"
           alt="sagar-dighi"
           className="second-banner-image"
         />

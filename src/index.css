@@ -108,13 +108,30 @@ body {
   height: 350px;
   width: 100%;
   margin-bottom: 8px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical scrolling */
+  white-space: nowrap; /* Keep images in a single line */
+  scroll-snap-type: x mandatory; /* Snap to each image */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.banner-container {
+  display: inline-flex; /* Keep images in a row */
+  height: 100%;
 }
 
 .second-banner-image {
   width: 100%;
   height: 350px;
   object-fit: cover;
-  display: block; /* Removes extra space below image */
+  display: inline-block; /* Display images inline */
+  flex-shrink: 0; /* Prevent images from shrinking */
+  scroll-snap-align: start; /* Snap to start of each image */
+}
+
+.second-banner {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .sidebar-items {
@@ -324,7 +341,7 @@ body {
   }
 
   .second-banner {
-    height: 350px;
+    height: 300px;
     width: 100%;
     margin-bottom: 8px;
     display: flex;
@@ -334,17 +351,8 @@ body {
 
   .second-banner-image {
     border: 4px solid #1a1a1a;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 350px;
-    object-fit: cover;
-    display: block; /* Removes extra space below image */
-  }
-
-  .second-banner-image {
-    height: 300px;
-  }
-
-  .sidebar ul {
     margin-top: 35px;
     gap: 30px; /* Further reduce gap on mobile */
     justify-content: flex-start; /* Start from top on mobile */

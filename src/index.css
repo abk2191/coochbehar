@@ -55,8 +55,8 @@ body {
   background-color: #1a1a1a;
   width: 800px;
   border-radius: 15px;
-  box-shadow: 0 0 30px rgba(128, 128, 128, 0.25),
-    0 10px 30px rgba(128, 128, 128, 0.25);
+  /* box-shadow: 0 0 30px rgba(128, 128, 128, 0.25),
+    0 10px 30px rgba(128, 128, 128, 0.25); */
 }
 
 .city-description h2 {
@@ -180,8 +180,8 @@ body {
   background-color: #1a1a1a;
   border-radius: 15px;
   margin-bottom: 20px;
-  box-shadow: 0 0 30px rgba(128, 128, 128, 0.25),
-    0 10px 30px rgba(128, 128, 128, 0.25);
+  /* box-shadow: 0 0 30px rgba(128, 128, 128, 0.25),
+    0 10px 30px rgba(128, 128, 128, 0.25); */
 }
 
 .sagar-dighi-desc-div h2 {

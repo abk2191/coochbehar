@@ -154,6 +154,38 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.second-banner {
+  text-align: center;
+}
+
+.second-banner h2 {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 45px;
+  color: #2c3e50;
+  margin-top: 50px;
+}
+
+.second-banner p {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  color: grey;
+  margin-top: 50px;
+  line-height: 1.6;
+}
+
+.sagar-dighi-desc-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: -20px;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .nav-bar {

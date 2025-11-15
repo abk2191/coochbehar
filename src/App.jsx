@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import CityDescription from "./CityDescription";
 import Sidebar from "./Sidebar";
 import SecondBanner from "./SecondBanner";
+import CityStats from "./CityStats";
 
 function App() {
   const [sideBarVisibility, setSideBarVisibility] = useState(false);
@@ -21,6 +22,7 @@ function App() {
       <CityDescription />
       {sideBarVisibility && <Sidebar />}
       <SecondBanner />
+      <CityStats />
     </>
   );
 }

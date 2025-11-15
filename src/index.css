@@ -216,6 +216,63 @@ body {
   hyphens: auto; /* Hyphenation for better line breaks */
 }
 
+.city-stats-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.city-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.city-stats-container {
+  width: 850px;
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.city-stats-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.city-stats-heading h1 {
+  font-family: "Inter", sans-serif;
+  color: rgb(216, 206, 62);
+  font-size: 45px;
+}
+
+.city-stats-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.city-stats-details-container {
+  width: fit-content;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.city-stats-details p {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .nav-bar {
@@ -316,5 +373,17 @@ body {
 
   .sagar-dighi-desc-div p {
     font-size: 18px;
+  }
+
+  .city-stats {
+    width: 350px;
+  }
+
+  .city-stats-heading h1 {
+    font-size: 30px;
+  }
+
+  .city-stats-details p {
+    font-size: 20px;
   }
 }

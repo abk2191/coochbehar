@@ -74,6 +74,7 @@ body {
   text-align: center;
   text-wrap: wrap;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .menu-btn-div {
@@ -197,6 +198,7 @@ body {
   font-size: 25px;
   color: grey;
   line-height: 1.6;
+  text-align: justify;
 }
 
 /* Mobile Responsive */

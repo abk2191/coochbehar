@@ -6,7 +6,7 @@ function SecondBanner() {
           <h2>THE MAJESTIC SAGAR DIGHI</h2>
           <div className="second-banner">
             <img
-              src="./sd3.jpeg"
+              src="./sagar-dighi-2.jpg"
               alt="sagar-dighi"
               className="second-banner-image"
             />

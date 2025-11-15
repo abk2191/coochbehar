@@ -353,6 +353,7 @@ body {
     border: 4px solid #1a1a1a;
     border-radius: 15px;
     width: 350px;
+    height: 300px;
     margin-top: 35px;
     gap: 30px; /* Further reduce gap on mobile */
     justify-content: flex-start; /* Start from top on mobile */

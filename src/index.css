@@ -107,11 +107,7 @@ body {
 .second-banner {
   height: 700px;
   width: 100%;
-  margin-bottom: 8px;
-}
-
-.banner-container {
-  height: 100%;
+  margin-bottom: 30px;
 }
 
 .second-banner-image {
@@ -328,11 +324,10 @@ body {
 
   .second-banner {
     height: 300px;
-    width: 100%;
-    margin-bottom: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 30px;
   }
 
   .second-banner-image {
@@ -341,9 +336,6 @@ body {
     width: 350px;
     height: 300px;
     margin-top: 35px;
-    gap: 30px; /* Further reduce gap on mobile */
-    justify-content: flex-start; /* Start from top on mobile */
-    padding-top: 20px; /* Small top padding instead of large gap */
   }
 
   .sidebar-items {

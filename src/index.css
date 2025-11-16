@@ -328,6 +328,13 @@ body {
   cursor: pointer;
 }
 
+.image-enlarge-msg {
+  color: gray;
+  margin: 0;
+  padding: 0;
+  font-size: 1px;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .nav-bar {

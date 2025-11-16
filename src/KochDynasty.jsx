@@ -12,6 +12,7 @@ function KochDynasty({ handleImageViewer }) {
               onClick={() => handleImageViewer("./koch.png")}
             />
           </div>
+          <p className="image-enlarge-msg">Click on the image to enlarge</p>
           <p>
             The chart shows a genealogical flow of the Koch Dynasty of Cooch
             Behar, beginning with Maharaja Vishwa Singha (c.1515–1540),

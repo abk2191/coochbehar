@@ -12,6 +12,7 @@ function CobPalace({ handleImageViewer }) {
               onClick={() => handleImageViewer("./cooch-behar-palace.jpg")}
             />
           </div>
+          <p className="image-enlarge-msg">Click on the image to enlarge</p>
           <p>
             The Cooch Behar Palace, built in 1887 by Maharaja Nripendra Narayan,
             was inspired by classical European architecture and symbolized the

@@ -12,6 +12,7 @@ function MadanMohan({ handleImageViewer }) {
               onClick={() => handleImageViewer("./Madan2.jpg")}
             />
           </div>
+          <p className="image-enlarge-msg">Click on the image to enlarge</p>
           <p>
             The Madan Mohan Temple in Cooch Behar was built in the late 19th
             century during the reign of Maharaja Nripendra Narayan, dedicated to

@@ -12,6 +12,7 @@ function SecondBanner({ handleImageViewer }) {
               onClick={() => handleImageViewer("./sagar-dighi-2.jpg")}
             />
           </div>
+          <p className="image-enlarge-msg">Click on the image to enlarge</p>
           <p>
             Sagar Dighi is one of the most prominent public spaces in
             Coochbehar, known for its expansive waterbody and well-maintained

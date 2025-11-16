@@ -286,146 +286,6 @@ body {
 
 /***************************************************************/
 
-/* Koch Dynasty Flow Chart Styles */
-.flow-chart-container {
-  display: flex;
-  justify-content: center;
-  margin: 40px 0;
-  padding: 20px;
-  background: #1a1a1a;
-  border-radius: 15px;
-  border: 1px solid #333;
-}
-
-.flow-level {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.member-node {
-  background: #2a2a2a;
-  border: 2px solid rgb(216, 206, 62);
-  border-radius: 10px;
-  padding: 15px;
-  margin: 10px 0;
-  min-width: 200px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
-  position: relative;
-}
-
-.member-node:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(216, 206, 62, 0.2);
-  background: #333;
-}
-
-.member-content h4 {
-  color: white;
-  margin: 0 0 8px 0;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.member-reign {
-  color: rgb(216, 206, 62);
-  margin: 0 0 5px 0;
-  font-size: 14px;
-  font-style: italic;
-}
-
-.member-description {
-  color: #888;
-  margin: 0;
-  font-size: 12px;
-  line-height: 1.3;
-}
-
-.children-flow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.connector-line {
-  width: 2px;
-  height: 20px;
-  background: rgb(216, 206, 62);
-  margin: 5px 0;
-}
-
-.children-container {
-  display: flex;
-  gap: 40px;
-  position: relative;
-  padding-top: 20px;
-}
-
-.children-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  right: 50%;
-  width: calc(100% - 80px);
-  height: 2px;
-  background: rgb(216, 206, 62);
-  transform: translateX(-50%);
-}
-
-/* For single child - center the connector */
-.children-container:has(> :only-child)::before {
-  width: 0;
-}
-
-.children-container:has(> :only-child) {
-  justify-content: center;
-}
-
-.dynasty-legacy {
-  margin-top: 40px;
-  padding: 20px;
-  background: #2a2a2a;
-  border-radius: 10px;
-  border-left: 4px solid rgb(216, 206, 62);
-}
-
-.legacy-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.legacy-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 15px;
-  background: #1a1a1a;
-  border-radius: 8px;
-  transition: transform 0.2s ease;
-}
-
-.legacy-item:hover {
-  transform: translateY(-2px);
-}
-
-.legacy-item i {
-  color: rgb(216, 206, 62);
-  font-size: 20px;
-  width: 25px;
-}
-
-.legacy-item span {
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-}
-
 /***************************************************************/
 
 /* Mobile Responsive */
@@ -482,7 +342,7 @@ body {
   }
 
   .second-banner-image {
-    border: 4px solid #1a1a1a;
+    border: 2px solid grey;
     border-radius: 15px;
     width: 300px;
     height: 300px;
@@ -531,49 +391,5 @@ body {
 
   .city-stats {
     width: auto; /* Remove the 362px fixed width */
-  }
-
-  .flow-chart-container {
-    padding: 10px;
-    overflow-x: auto;
-  }
-
-  .member-node {
-    min-width: 160px;
-    padding: 12px;
-  }
-
-  .member-content h4 {
-    font-size: 14px;
-  }
-
-  .member-reign {
-    font-size: 12px;
-  }
-
-  .member-description {
-    font-size: 11px;
-  }
-
-  .children-container {
-    gap: 20px;
-    flex-direction: column;
-  }
-
-  .children-container::before {
-    width: 2px;
-    height: calc(100% - 40px);
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-  }
-
-  .legacy-grid {
-    grid-template-columns: 1fr;
-    gap: 15px;
-  }
-
-  .legacy-item {
-    padding: 12px;
   }
 }

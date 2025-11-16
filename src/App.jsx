@@ -26,10 +26,10 @@ function App() {
       <div className="main-container">
         <CityDescription />
         <CobPalace />
+        <KochDynasty />
         <SecondBanner />
         <MadanMohan />
         <CityStats />
-        {/* <KochDynasty /> */}
       </div>
     </>
   );

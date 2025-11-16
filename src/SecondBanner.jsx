@@ -3,7 +3,7 @@ function SecondBanner() {
     <>
       <div className="container">
         <div className="sagar-dighi-desc-div">
-          <h2>THE MAJESTIC SAGAR DIGHI</h2>
+          <h2>SAGAR DIGHI LAKE</h2>
           <div className="second-banner">
             <img
               src="./sagar-dighi-2.jpg"

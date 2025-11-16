@@ -21,9 +21,7 @@ function Sidebar() {
             </li>
           ))}
         </ul>
-        <div className="developer">
-          <p>Designed by ABHISHEK KABI</p>
-        </div>
+        
       </div>
     </>
   );

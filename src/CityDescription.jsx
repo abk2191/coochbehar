@@ -3,7 +3,7 @@ function CityDescription() {
     <>
       <div className="container">
         <div className="city-description">
-          <h2>COOCHBEHAR - THE ROYAL CITY</h2>
+          <h2>THE HERITAGE CITY</h2>
           <p>
             Coochbehar is a quiet heritage city in North Bengal, known for its
             serene vibe and slow-paced lifestyle. The centerpiece is the

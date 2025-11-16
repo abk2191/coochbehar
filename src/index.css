@@ -171,6 +171,7 @@ body {
   padding: 0;
   text-decoration: none; /* Remove underline from links */
   color: white; /* Set link color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   display: block; /* Make the link fill the entire li */
   width: 100%;
   /* padding: 10px 0;  */

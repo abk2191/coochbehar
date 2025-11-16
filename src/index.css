@@ -339,7 +339,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  padding: 5px;
   z-index: 2001;
   position: relative;
 }

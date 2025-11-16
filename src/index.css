@@ -329,7 +329,7 @@ body {
   width: auto;
   max-width: 90%;
   max-height: 90%;
-  border-radius: 12px;
+
   background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -339,7 +339,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 1px;
   z-index: 2001;
   position: relative;
 }

@@ -43,10 +43,12 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding: 0 20px; /* Add some padding */
 }
 
 .logo-text {
-  width: 100%;
+  flex: 1; /* Take available space */
+  text-align: center;
 }
 
 .placeholder-div {
@@ -104,10 +106,8 @@ body {
 }
 
 .menu-btn-div {
-  padding: 10px;
-  z-index: 2000;
-
-  width: 100%;
+  flex: 0 0 auto; /* Don't grow or shrink */
+  width: 40px;
 }
 
 .menu-btn {

@@ -15,7 +15,6 @@ function Navbar({ handleSidebarToggle, sideBarVisibility }) {
           <div className="logo-text">
             <h3>COOCHBEHAR</h3>
           </div>
-          <div className="placeholder-div"></div>
         </div>
       </div>
     </>

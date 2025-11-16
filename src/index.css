@@ -200,6 +200,7 @@ body {
   width: 800px;
   background-color: whitesmoke;
   border-radius: 15px;
+  margin-bottom: 20px;
   /* box-shadow: 0 0 30px rgba(128, 128, 128, 0.25),
     0 10px 30px rgba(128, 128, 128, 0.25); */
 }

@@ -13,7 +13,13 @@ function Navbar({ handleSidebarToggle, sideBarVisibility }) {
             </button>
           </div>
           <div className="logo-text">
-            <h3>COOCHBEHAR</h3>
+            <h3
+              style={{
+                color: "white",
+              }}
+            >
+              COOCHBEHAR
+            </h3>
           </div>
         </div>
       </div>

@@ -7,6 +7,7 @@ import SecondBanner from "./SecondBanner";
 import CityStats from "./CityStats";
 import CobPalace from "./CobPalace";
 import MadanMohan from "./MadanMohan";
+import KochDynasty from "./KochDynasty";
 
 function App() {
   const [sideBarVisibility, setSideBarVisibility] = useState(false);
@@ -21,17 +22,17 @@ function App() {
         sideBarVisibility={sideBarVisibility}
       />
       <Banner />
-     {sideBarVisibility && <Sidebar />}
+      {sideBarVisibility && <Sidebar />}
       <div className="main-container">
-      <CityDescription />
-      <CobPalace />
-      <SecondBanner />
-      <MadanMohan />
-      <CityStats />
+        <CityDescription />
+        <CobPalace />
+        <SecondBanner />
+        <MadanMohan />
+        <CityStats />
+        {/* <KochDynasty /> */}
       </div>
     </>
   );
 }
 
 export default App;
-

@@ -1,4 +1,4 @@
-function KochDynasty() {
+function KochDynasty({ handleImageViewer }) {
   return (
     <>
       <div className="container">
@@ -9,6 +9,7 @@ function KochDynasty() {
               src="./koch.png"
               alt="cob-palace"
               className="second-banner-image"
+              onClick={() => handleImageViewer("./koch.png")}
             />
           </div>
           <p>

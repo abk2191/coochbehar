@@ -1,4 +1,4 @@
-function SecondBanner() {
+function SecondBanner({ handleImageViewer }) {
   return (
     <>
       <div className="container">
@@ -9,6 +9,7 @@ function SecondBanner() {
               src="./sagar-dighi-2.jpg"
               alt="sagar-dighi"
               className="second-banner-image"
+              onClick={() => handleImageViewer("./sagar-dighi-2.jpg")}
             />
           </div>
           <p>

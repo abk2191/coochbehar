@@ -498,6 +498,12 @@ body {
   overflow-wrap: break-word;
   text-wrap: wrap;
 }
+
+.close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .nav-bar {

@@ -47,7 +47,9 @@ const Bank = ({ isOpen, onClose }) => {
             <p>Phone: 03582-123456</p>
           </div>
         </div>
-        <button onClick={onClose}>Close</button>
+        <div className="close-btn">
+          <button onClick={onClose}>Close</button>
+        </div>
       </div>
     </div>
   );

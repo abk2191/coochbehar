@@ -9,9 +9,12 @@ const Bank = ({ isOpen, onClose }) => {
         <h2>Banks in Coochbehar</h2>
         <div className="bank-list">
           <div className="bank-item">
-            <h3>State Bank of India</h3>
-            <p>Main Branch, Coochbehar</p>
-            <p>Phone: 03582-123456</p>
+            <h3>AXIS BANK – COOCHBEHAR BRANCH</h3>
+            <p>Sunity Road,Cooch Behar-I Block,Cooch Behar, West Bengal</p>
+            <p>Email : kochbihar.branchhead@axisbank.com</p>
+            <p>Phone : 918001603961</p>
+            <p>Website Link : https://www.axisbank.com</p>
+            <p>Pincode: 736101</p>
           </div>
           <div className="bank-item">
             <h3>United Bank of India</h3>

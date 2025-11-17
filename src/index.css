@@ -435,6 +435,8 @@ body {
   border-radius: 15px;
   max-width: 500px;
   width: 90%;
+  height: 450px;
+  max-height: 450px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   z-index: 3001;
   position: relative;

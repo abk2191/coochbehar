@@ -28,6 +28,21 @@ const Bank = ({ isOpen, onClose }) => {
             <p>B.S. Road, Coochbehar</p>
             <p>Phone: 03582-456789</p>
           </div>
+          <div className="bank-item">
+            <h3>State Bank of India</h3>
+            <p>Main Branch, Coochbehar</p>
+            <p>Phone: 03582-123456</p>
+          </div>
+          <div className="bank-item">
+            <h3>State Bank of India</h3>
+            <p>Main Branch, Coochbehar</p>
+            <p>Phone: 03582-123456</p>
+          </div>
+          <div className="bank-item">
+            <h3>State Bank of India</h3>
+            <p>Main Branch, Coochbehar</p>
+            <p>Phone: 03582-123456</p>
+          </div>
         </div>
         <button onClick={onClose}>Close</button>
       </div>

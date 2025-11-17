@@ -1,4 +1,9 @@
-function PublicUtilities({ openModal }) {
+function PublicUtilities({
+  openBankModal,
+  openCollegeModal,
+  openElectricModal,
+  openHospitalModal,
+}) {
   return (
     <>
       <div className="container">
@@ -7,24 +12,30 @@ function PublicUtilities({ openModal }) {
           <div className="all-public-utilities">
             <div className="public-util-items">
               <h3>Banks</h3>
-              <button className="more-info-btn" onClick={openModal}>
+              <button className="more-info-btn" onClick={openBankModal}>
                 More Info
               </button>
             </div>
             <div className="long-dash"></div>
             <div className="public-util-items">
               <h3>Colleges</h3>
-              <button className="more-info-btn">More Info</button>
+              <button className="more-info-btn" onClick={openCollegeModal}>
+                More Info
+              </button>
             </div>
             <div className="long-dash"></div>
             <div className="public-util-items">
               <h3>Electricity</h3>
-              <button className="more-info-btn">More Info</button>
+              <button className="more-info-btn" onClick={openElectricModal}>
+                More Info
+              </button>
             </div>
             <div className="long-dash"></div>
             <div className="public-util-items">
               <h3>Hospitals</h3>
-              <button className="more-info-btn">More Info</button>
+              <button className="more-info-btn" onClick={openHospitalModal}>
+                More Info
+              </button>
             </div>
             <div className="long-dash"></div>
             <div className="public-util-items">

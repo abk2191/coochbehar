@@ -480,7 +480,22 @@ body {
   border-radius: 6px;
 }
 
-.bank-item h3 p {
+.bank-item h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.bank-item p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   text-wrap: wrap;
 }
 /* Mobile Responsive */

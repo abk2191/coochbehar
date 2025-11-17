@@ -441,6 +441,7 @@ body {
   z-index: 3001;
   position: relative;
   overflow-y: auto;
+  font-family: "Inter", sans-serif;
 }
 
 .modal-content h2 {

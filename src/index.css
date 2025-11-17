@@ -499,7 +499,7 @@ body {
   text-wrap: wrap;
 }
 
-.close-btn {
+.centered {
   display: flex;
   align-items: center;
   justify-content: center;

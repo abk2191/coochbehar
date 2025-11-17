@@ -6,7 +6,9 @@ const Bank = ({ isOpen, onClose }) => {
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <h2>Banks in Coochbehar</h2>
+        <div className="centered">
+          <h2>Banks in Coochbehar</h2>
+        </div>
         <div className="bank-list">
           <div className="bank-item">
             <h3>AXIS BANK – COOCHBEHAR BRANCH</h3>
@@ -47,7 +49,7 @@ const Bank = ({ isOpen, onClose }) => {
             <p>Phone: 03582-123456</p>
           </div>
         </div>
-        <div className="close-btn">
+        <div className="centered">
           <button onClick={onClose}>Close</button>
         </div>
       </div>

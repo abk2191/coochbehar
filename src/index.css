@@ -404,6 +404,7 @@ body {
   border: 3px solid gray;
   font-size: 18px;
   cursor: pointer;
+  font-family: "Inter", sans-serif;
 }
 /* Mobile Responsive */
 @media (max-width: 768px) {

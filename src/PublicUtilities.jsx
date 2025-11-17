@@ -1,4 +1,4 @@
-function PublicUtilities({ handleImageViewer }) {
+function PublicUtilities({ openModal }) {
   return (
     <>
       <div className="container">
@@ -7,7 +7,9 @@ function PublicUtilities({ handleImageViewer }) {
           <div className="all-public-utilities">
             <div className="public-util-items">
               <h3>Banks</h3>
-              <button className="more-info-btn">More Info</button>
+              <button className="more-info-btn" onClick={openModal}>
+                More Info
+              </button>
             </div>
             <div className="long-dash"></div>
             <div className="public-util-items">

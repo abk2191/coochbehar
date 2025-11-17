@@ -10,11 +10,16 @@ import MadanMohan from "./MadanMohan";
 import KochDynasty from "./KochDynasty";
 import ImageViewer from "./ImageViewer";
 import PublicUtilities from "./PublicUtilities";
+import Bank from "./Bank";
 
 function App() {
   const [sideBarVisibility, setSideBarVisibility] = useState(false);
   const [imageName, setImageName] = useState("");
   const [shouldImageViewerOpen, setShouldImageViewerOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
 
   function handleSidebarToggle() {
     setSideBarVisibility((prev) => !prev);
@@ -51,7 +56,8 @@ function App() {
             handleImageViewerClose={handleImageViewerClose}
           />
         )}
-        <PublicUtilities />
+        <PublicUtilities openModal={openModal} />
+        <Bank isOpen={isModalOpen} onClose={closeModal} />
       </div>
     </>
   );

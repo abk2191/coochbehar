@@ -414,6 +414,60 @@ body {
   width: 800px;
   height: 2px;
 }
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3000; /* Higher than other elements */
+  backdrop-filter: blur(5px); /* Optional: adds blur effect to background */
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  z-index: 3001;
+  position: relative;
+}
+
+.modal-content h2 {
+  font-family: "Inter", sans-serif;
+  color: rgb(216, 206, 62);
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.modal-content p {
+  font-family: "Inter", sans-serif;
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.modal-content button {
+  background-color: rgb(216, 206, 62);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+.modal-content button:hover {
+  background-color: rgb(200, 190, 50);
+}
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .nav-bar {

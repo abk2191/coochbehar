@@ -432,7 +432,7 @@ body {
 .modal-content {
   background: white;
   padding: 30px;
-
+  border-radius: 4px;
   max-width: 500px;
   width: 90%;
   height: 550px;

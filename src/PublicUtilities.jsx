@@ -10,7 +10,7 @@ function PublicUtilities({ handleImageViewer }) {
               <button className="more-info-btn">More Info</button>
             </div>
             <div className="public-util-items">
-              <h3>College / Universities</h3>
+              <h3>College</h3>
               <button className="more-info-btn">More Info</button>
             </div>
             <div className="public-util-items">

@@ -9,6 +9,7 @@ import CobPalace from "./CobPalace";
 import MadanMohan from "./MadanMohan";
 import KochDynasty from "./KochDynasty";
 import ImageViewer from "./ImageViewer";
+import PublicUtilities from "./PublicUtilities";
 
 function App() {
   const [sideBarVisibility, setSideBarVisibility] = useState(false);
@@ -50,6 +51,7 @@ function App() {
             handleImageViewerClose={handleImageViewerClose}
           />
         )}
+        <PublicUtilities />
       </div>
     </>
   );

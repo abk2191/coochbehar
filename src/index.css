@@ -474,6 +474,10 @@ body {
     height: 80px;
   }
 
+  .modal-content {
+    width: 85%;
+  }
+
   .long-dash {
     border-top: 1px solid rgb(134, 121, 48);
     width: 300px;

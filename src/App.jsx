@@ -14,6 +14,13 @@ import Bank from "./Bank";
 import Colleges from "./Colleges";
 import Electric from "./Electric";
 import Hospital from "./Hospitals";
+import Municipalities from "./Municipalities";
+import NGOs from "./NGOs";
+import Postal from "./Postal";
+import Schools from "./Schools";
+import BloodBanks from "./BloodBanks";
+import Ambulance from "./Ambulance";
+import DiagnosticCentre from "./DiagnosticCentre";
 
 function App() {
   const [sideBarVisibility, setSideBarVisibility] = useState(false);
@@ -23,6 +30,14 @@ function App() {
   const [isCollegeModalOpen, setIsCollegeModalOpen] = useState(false);
   const [isElectricityModalOpen, setIsElectricityModalOpen] = useState(false);
   const [isHospitalModalOpen, setIsHospitalModalOpen] = useState(false);
+  const [isMunicipalityModalOpen, setIsMunicipalityModalOpen] = useState(false);
+  const [isNGOsModalOpen, setIsNGOsModalOpen] = useState(false);
+  const [isPostalModalOpen, setIsPostalModalOpen] = useState(false);
+  const [isSchoolsModalOpen, setIsSchoolsModalOpen] = useState(false);
+  const [isBloodBanksModalOpen, setIsBloodBanksModalOpen] = useState(false);
+  const [isAmbulanceModalOpen, setIsAmbulanceModalOpen] = useState(false);
+  const [isDiagnosticCentreModalOpen, setIsDiagnosticCentreModalOpen] =
+    useState(false);
 
   const openBankModal = () => setIsBankModalOpen(true);
   const closeBankModal = () => setIsBankModalOpen(false);
@@ -34,7 +49,29 @@ function App() {
   const closeElectricModal = () => setIsElectricityModalOpen(false);
 
   const openHospitalModal = () => setIsHospitalModalOpen(true);
-  const closeHospitalcModal = () => setIsHospitalModalOpen(false);
+  const closeHospitalModal = () => setIsHospitalModalOpen(false);
+
+  const openMunicipalityModal = () => setIsMunicipalityModalOpen(true);
+  const closeMunicipalityModal = () => setIsMunicipalityModalOpen(false);
+
+  const openNGOsModal = () => setIsNGOsModalOpen(true);
+  const closeNGOsModal = () => setIsNGOsModalOpen(false);
+
+  const openPostalModal = () => setIsPostalModalOpen(true);
+  const closePostalModal = () => setIsPostalModalOpen(false);
+
+  const openSchoolsModal = () => setIsSchoolsModalOpen(true);
+  const closeSchoolsModal = () => setIsSchoolsModalOpen(false);
+
+  const openBloodBanksModal = () => setIsBloodBanksModalOpen(true);
+  const closeBloodBanksModal = () => setIsBloodBanksModalOpen(false);
+
+  const openAmbulanceModal = () => setIsAmbulanceModalOpen(true);
+  const closeAmbulanceModal = () => setIsAmbulanceModalOpen(false);
+
+  const openDiagnosticCentreModal = () => setIsDiagnosticCentreModalOpen(true);
+  const closeDiagnosticCentreModal = () =>
+    setIsDiagnosticCentreModalOpen(false);
 
   function handleSidebarToggle() {
     setSideBarVisibility((prev) => !prev);
@@ -76,6 +113,13 @@ function App() {
           openCollegeModal={openCollegeModal}
           openElectricModal={openElectricModal}
           openHospitalModal={openHospitalModal}
+          openMunicipalityModal={openMunicipalityModal}
+          openNGOsModal={openNGOsModal}
+          openPostalModal={openPostalModal}
+          openSchoolsModal={openSchoolsModal}
+          openBloodBanksModal={openBloodBanksModal}
+          openAmbulanceModal={openAmbulanceModal}
+          openDiagnosticCentreModal={openDiagnosticCentreModal}
         />
         <Bank isOpen={isBankModalOpen} onClose={closeBankModal} />
         <Colleges
@@ -88,7 +132,29 @@ function App() {
         />
         <Hospital
           isitOpen={isHospitalModalOpen}
-          onClosethis={closeHospitalcModal}
+          onClosethis={closeHospitalModal}
+        />
+        <Municipalities
+          isitOpen={isMunicipalityModalOpen}
+          onClosethis={closeMunicipalityModal}
+        />
+        <NGOs isitOpen={isNGOsModalOpen} onClosethis={closeNGOsModal} />
+        <Postal isitOpen={isPostalModalOpen} onClosethis={closePostalModal} />
+        <Schools
+          isitOpen={isSchoolsModalOpen}
+          onClosethis={closeSchoolsModal}
+        />
+        <BloodBanks
+          isitOpen={isBloodBanksModalOpen}
+          onClosethis={closeBloodBanksModal}
+        />
+        <Ambulance
+          isitOpen={isAmbulanceModalOpen}
+          onClosethis={closeAmbulanceModal}
+        />
+        <DiagnosticCentre
+          isitOpen={isDiagnosticCentreModalOpen}
+          onClosethis={closeDiagnosticCentreModal}
         />
       </div>
     </>

@@ -3,6 +3,13 @@ function PublicUtilities({
   openCollegeModal,
   openElectricModal,
   openHospitalModal,
+  openMunicipalityModal,
+  openNGOsModal,
+  openPostalModal,
+  openSchoolsModal,
+  openBloodBanksModal,
+  openAmbulanceModal,
+  openDiagnosticCentreModal,
 }) {
   return (
     <>
@@ -40,37 +47,54 @@ function PublicUtilities({
             <div className="long-dash"></div>
             <div className="public-util-items">
               <h3>Municipalities</h3>
-              <button className="more-info-btn">More Info</button>
+              <button className="more-info-btn" onClick={openMunicipalityModal}>
+                More Info
+              </button>
             </div>
             <div className="long-dash"></div>
             <div className="public-util-items">
               <h3>NGOs</h3>
-              <button className="more-info-btn">More Info</button>
+              <button className="more-info-btn" onClick={openNGOsModal}>
+                More Info
+              </button>
             </div>
             <div className="long-dash"></div>
             <div className="public-util-items">
               <h3>Postal</h3>
-              <button className="more-info-btn">More Info</button>
+              <button className="more-info-btn" onClick={openPostalModal}>
+                More Info
+              </button>
             </div>
             <div className="long-dash"></div>
             <div className="public-util-items">
               <h3>Schools</h3>
-              <button className="more-info-btn">More Info</button>
+              <button className="more-info-btn" onClick={openSchoolsModal}>
+                More Info
+              </button>
             </div>
             <div className="long-dash"></div>
             <div className="public-util-items">
               <h3>Blood Banks</h3>
-              <button className="more-info-btn">More Info</button>
+              <button className="more-info-btn" onClick={openBloodBanksModal}>
+                More Info
+              </button>
             </div>
             <div className="long-dash"></div>
             <div className="public-util-items">
               <h3>Ambulance</h3>
-              <button className="more-info-btn">More Info</button>
+              <button className="more-info-btn" onClick={openAmbulanceModal}>
+                More Info
+              </button>
             </div>
             <div className="long-dash"></div>
             <div className="public-util-items">
               <h3>Diagnostic Centre</h3>
-              <button className="more-info-btn">More Info</button>
+              <button
+                className="more-info-btn"
+                onClick={openDiagnosticCentreModal}
+              >
+                More Info
+              </button>
             </div>
           </div>
         </div>

@@ -19,9 +19,15 @@ const Bank = ({ isOpen, onClose }) => {
             <p>Pincode: 736101</p>
           </div>
           <div className="bank-item">
-            <h3>United Bank of India</h3>
-            <p>Keshab Road, Coochbehar</p>
-            <p>Phone: 03582-234567</p>
+            <h3>HDFC BANK – COOCHBEHAR BRANCH</h3>
+            <p>
+              Nripendra Narayan Road,Old Post Office Para,Cooch Behar-I
+              Block,Cooch Behar, West Bengal
+            </p>
+            <p>Email : biswajit[dot]majumder[at]hdfcbank[dot]com</p>
+            <p>Phone : 919830624543</p>
+            <p>Website Link : https://www.hdfcbank.com</p>
+            <p>Pincode: 736101</p>
           </div>
           <div className="bank-item">
             <h3>Punjab National Bank</h3>

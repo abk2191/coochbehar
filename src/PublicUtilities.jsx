@@ -13,7 +13,7 @@ function PublicUtilities({ openModal }) {
             </div>
             <div className="long-dash"></div>
             <div className="public-util-items">
-              <h3>College</h3>
+              <h3>Colleges</h3>
               <button className="more-info-btn">More Info</button>
             </div>
             <div className="long-dash"></div>
